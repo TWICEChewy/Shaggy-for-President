@@ -1,0 +1,80 @@
+.head {
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+#donate h2 {
+    text-shadow: 2px 2px #FFFFFF;
+}
+
+#eagles h2 {
+    text-shadow: 2px 2px #ff0000;
+}
+
+p {
+    font-size: 20px;
+}
+
+#header,
+#donate,
+#eagles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#header {
+    color: Green;
+    background-image: url("https://assets.change.org/photos/9/ea/kp/xOEakPOLpNNhOUd-800x450-noPad.jpg?1539704331");
+}
+
+#donate {
+    background: brown;
+}
+
+#eagles {
+    background: green;
+    color: white;
+}
+
+#pics img {
+    width: 20%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+}
+
+#pics {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+}
+
+#pics img:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+#donate button {
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    background: green;
+    color: white;
+    border-radius: 5px;
+    border: solid black 3px;
+}
+
+#donate button:hover {
+    background: #008FEC;
+    color: black;
+}
